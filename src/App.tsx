@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import { Navigation } from './components/navigation/Navigation';
+import { Footer } from './components/footer';
+import { Navigation } from './components/navigation';
 import { Homepage } from './views/Homepage';
 
 function App(): JSX.Element {
@@ -9,7 +10,7 @@ function App(): JSX.Element {
         <Router>
             <Navigation/>
             <Homepage/>
-            Footer
+            <Footer/>
         </Router>
     );
 }

@@ -4,6 +4,8 @@ import styles from './navigation.module.scss';
 export const Navigation = (): JSX.Element => {
 
     return (
-        <div>Navigation</div>
+        <div className={styles.wrapper}>
+            
+        </div>
     );
 };
