@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import './App.scss';
 import { Footer } from './components/footer';
 import { Navigation } from './components/navigation';
 import { Homepage } from './views/homepage';
+import styles from './App.module.scss';
 
 function App(): JSX.Element {
     return (
         <Router>
             <Navigation/>
-            <div className='content'>
+            <div className={styles.content}>
                 <Homepage/>
             </div>
             <Footer/>
