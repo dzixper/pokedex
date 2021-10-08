@@ -5,7 +5,7 @@ export const Navigation = (): JSX.Element => {
 
     return (
         <div className={styles.wrapper}>
-            
+            <h2 className={styles.heading}>Pokedex</h2>
         </div>
     );
 };

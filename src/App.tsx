@@ -1,15 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import { Footer } from './components/footer';
 import { Navigation } from './components/navigation';
-import { Homepage } from './views/Homepage';
+import { Homepage } from './views/homepage';
 
 function App(): JSX.Element {
     return (
         <Router>
             <Navigation/>
-            <Homepage/>
+            <div className='content'>
+                <Homepage/>
+            </div>
             <Footer/>
         </Router>
     );

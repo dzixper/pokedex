@@ -1,0 +1,16 @@
+@import 'src/App.scss';
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $navbar-height;
+    background: tomato;
+    display: flex;
+    align-items: center;
+    padding: 0 0.75rem;
+}
+
+.heading {
+    color: #fff;
+}
